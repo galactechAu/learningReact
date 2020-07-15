@@ -6,6 +6,7 @@ function CounterExample(){
 			<div>
 				<h1>{count}</h1>
 				<h1 onClick={() => setCount(count+3)}>Plus</h1>
+				<h1 onClick={() => setCount(count-3)}>Minus</h1>
 			</div>
 		)
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Test from './Components/Test'
 import CounterExample from './Components/CounterExample'
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div>
-      {/*} <Test name="Yoooooo" /> */}
+    <div className="bg-black h-100 text-gray-200">
+      <Header/>
+      <Footer/>
       <CounterExample />
     </div>
   );
