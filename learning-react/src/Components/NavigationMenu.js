@@ -6,23 +6,24 @@ function NavigationMenu(props){
 
     return (
         <div>
-            <div className="font-bold">YourLiftMate</div>
+            <div className="font-bold py-3">YourLiftMate</div>
             <ul className="text-center">
                 <li>
                     <Link
                         to="/" 
                         onClick={ props.closeMenu } 
-                        className="py-3 border-t border-b">
+                        className="py-3 border-t border-b block">
+                            Main Page
                     </Link>
-                    Main Page
                 </li>
 
                 <li>
                     <Link to="/myworkouts" 
                         onClick={ props.closeMenu }  
-                        className="py-3 border-t border-b">
+                        className="py-3 border-b block">
+                        Workouts
+
                     </Link>
-                    Workouts
 
                 </li>          
             </ul>
