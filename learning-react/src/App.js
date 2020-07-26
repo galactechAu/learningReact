@@ -8,8 +8,7 @@ import Workout from './Views/Workout';
 
 function App() {
   return (
-    <div className="bg-black h-100 text-gray-200">
-
+    <div className=" bg-black top-0 left-0 w-4/5 text-white min-h-screen w-full">
       <Router>
         <Header/>
         <div className="p-3">
@@ -26,6 +25,8 @@ function App() {
           </Switch>
         </div>
         <Footer/>
+        
+
       </Router>
     </div>
   );
